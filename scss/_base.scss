@@ -4,6 +4,9 @@ Base Rules
 */
 
 body {
+    background-color: $background-color;
+    animation: 
+        colorchange-background 5s linear 1s infinite alternate;
     color: $color;
     box-sizing: border-box;
     @include body-font-regular;
