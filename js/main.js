@@ -25,7 +25,7 @@ $(function() {
 
 // initialize bigtext.js
 // Remove /* and */ to initiate the plugin
-/* $(function() {
+$(function() {
     WebFont.load({
         custom: {
             families: ['cubano'], // font-family name
@@ -38,7 +38,8 @@ $(function() {
             $('#webapps-headline').bigtext();
         }
     });
-}); */
+}); 
+
 
 
 // initialize Menu Button Expand/Collapse
