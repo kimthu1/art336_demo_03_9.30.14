@@ -91,3 +91,12 @@ main[role="main"] h1 {
     animation: colorchange-font 5s linear 1s infinite alternate; 
     padding: 0 8px;
 }
+
+footer[role="contentinfo"] {
+    animation: colorchange-font 5s linear 1s infinite alternate;
+    background-color: $color;
+    color: $background-color;
+    @include body-font-italic;
+    line-height: 1;
+    padding: 4px 8px 8px 8px;
+}
